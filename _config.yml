@@ -11,7 +11,7 @@ email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Cégünk az Ortobrace gyógyászati segédeszközöket előállító és forgalmazó Kft 1994-ben alakult Budapesten. Fő profilunk gyógyászati segédeszköz gyártás forgalmazás, ortopédia cipő készítése. A gyártás és forgalmazás mellett tervezéssel és fejlesztéssel is foglalkozunk. Célunk a megrendelők, ügyfelek és páciensek megbízható az egyedi igényeit és adottságaikat figyelembe vevő kiszolgálása. Teljesítésünk határideje rövid, a kiszolgálás megbízható. Szakembereink megfelelő végzetségekkel rendelkeznek.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ortobrace.hu" # the base hostname & protocol for your site
+url: "https://balcsida.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
