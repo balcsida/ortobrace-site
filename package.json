@@ -8,8 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "glob": "^7.0.3",
-    "uncss": "^0.13.0"
+  "devDependencies": {
+    "glob": "^7.1.2",
+    "uncss": "^0.16.2"
   }
 }
