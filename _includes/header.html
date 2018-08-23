@@ -1,0 +1,38 @@
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="top-number"><a href="tel:+36209538844">+36 20 953 8844</a> | <a href="tel:+36209346466">+36 20 934 6466</a></div>
+                    </div>
+                </div>
+            </div><!--/.container-->
+        </div><!--/.top-bar-->
+
+        <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/"><img src="/images/logo.png" alt="logo"></a>
+                </div>
+        
+                <div class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                    {% for my_page in site.pages %}
+                      {% if my_page.url == page.url %}
+                        <li class="active"><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                      {% elsif my_page.title %}
+                        <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></li>
+                      {% endif %}
+                    {% endfor %}
+                    </ul>
+                </div>
+            </div><!--/.container-->
+        </nav><!--/nav-->
+    
+    </header><!--/header-->

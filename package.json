@@ -1,0 +1,15 @@
+{
+  "name": "ortobrace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "uncss": "jekyll build && node build.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.0.3",
+    "uncss": "^0.13.0"
+  }
+}

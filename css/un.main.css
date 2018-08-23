@@ -1,0 +1,393 @@
+/*************************
+*******Typography******
+**************************/
+
+body {
+  background: #fff;
+  font-family: 'Open Sans', sans-serif;
+  color: #4e4e4e;
+  line-height: 22px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+  color: #4e4e4e;
+}
+
+h1 {
+  font-size: 36px;
+  color: #fff;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 16px;
+  color: #787878;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+a {
+  color: #780000;
+  -webkit-transition: color 300ms, background-color 300ms;
+  -moz-transition: color 300ms, background-color 300ms;
+  -o-transition: color 300ms, background-color 300ms;
+  transition: color 300ms, background-color 300ms;
+}
+
+a:hover,
+a:focus {
+  color: #d43133;
+}
+
+a:hover,
+a:focus {
+  color: #111;
+  text-decoration: none;
+  outline: none;
+}
+
+.center h2 {
+  font-size: 36px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.media>.pull-left {
+  margin-right: 20px;
+}
+
+.media>.pull-right {
+  margin-left: 20px;
+}
+
+body > section {
+  padding: 70px 0;
+}
+
+.center {
+  text-align: center;
+  padding-bottom: 55px;
+}
+
+.lead {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+/*************************
+*******Header******
+**************************/
+
+.navbar>.container .navbar-brand {
+  margin-left: 0;
+}
+
+.top-bar {
+  padding: 10px 0;
+  background: #780000;
+  /* border-bottom: 1px solid #222; */
+  line-height: 28px;
+}
+
+.top-bar a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  border-radius: 0;
+  margin-bottom: 0;
+  background: #780000;
+  padding: 15px 0;
+  padding-bottom: 0;
+}
+
+.navbar-nav {
+  margin-top: 12px;
+}
+
+.navbar-nav>li {
+  margin-left: 35px;
+  padding-bottom: 28px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 3px;
+  color: #fff;
+  line-height: 24px;
+  display: inline-block;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #780000;
+  color: #fff;
+}
+
+.navbar-inverse {
+  border: none;
+}
+
+.navbar-inverse .navbar-brand {
+  font-size: 36px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+}
+
+.navbar-inverse .navbar-collapse {
+  border-top: 0;
+  padding-bottom: 0;
+}
+
+/*************************
+*******Home Page******
+**************************/
+
+.nav-tabs>li {
+  margin-bottom: 0px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.nav-tabs {
+  border-bottom: transparent;
+  border-right: 1px solid #e6e6e6;
+}
+
+.nav-tabs>li>a {
+  background: #f5f5f5;
+  color: #666;
+  border-radius: 0;
+  border: 0 none;
+  line-height: 24px;
+  margin-right: 0;
+  padding: 13px 15px;
+}
+
+.nav-tabs li:last-child {
+  border-bottom: 0 none;
+}
+
+.nav-stacked>li+li {
+  margin-top: 0;
+}
+
+.nav-tabs>li>a:hover {
+  background: #1f1f20;
+  color: #fff;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+  border: 0;
+  color: #fff;
+  background: #1f1f20;
+  position: relative;
+}
+
+.nav-tabs>li.active>a:after {
+  position: absolute;
+  content: "";
+  width: auto;
+  height: auto;
+  border-style: solid;
+  border-color: transparent transparent transparent #1f1f20;
+  border-width: 25px 22px;
+  right: -44px;
+  top: 0;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+  background-color: #780000;
+}
+
+.tab-wrap {
+  border: 1px solid #e6e6e6;
+  margin-bottom: 20px;
+}
+
+.tab-content {
+  padding: 20px;
+}
+
+.tab-content img {
+  border-radius: 4px;
+}
+
+/*************************
+********* About Us Page CSS ******
+**************************/
+
+/***********************
+****Service page css****
+***********************/
+
+/*************************
+********* Portfolio CSS ******
+**************************/
+
+/* Start: Recommended Isotope styles */
+
+/**** Isotope Filtering ****/
+
+/**** Isotope CSS3 transitions ****/
+
+/**** disabling Isotope CSS3 transitions ****/
+
+/* End: Recommended Isotope styles */
+
+/* disable CSS transitions for containers with infinite scrolling*/
+
+/**************************
+********* Pricing Table CSS *
+**************************/
+
+/*************************
+********* Contact Us CSS ******
+**************************/
+
+/*********************
+****blog page css*****
+**********************/
+
+/**********************
+**blog single page css*
+**********************/
+
+/******************
+ 404 page css
+ ******************/
+
+/******************
+shortcodes page css
+******************/
+
+/***********************
+********* Footer ******
+************************/
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #fff;
+  background: #780000;
+}
+
+#footer a {
+  color: #fff;
+}
+
+#footer a:hover {
+  color: #780000;
+}
+
+/* RESPONSIVE */
+
+/* lg */
+
+@media (min-width: 1200px) {
+  /* Make Navigation Toggle on Desktop Hover */
+}
+
+/* md */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Make Navigation Toggle on Desktop Hover */
+
+  .navbar-nav > li {
+    margin-left: 10px;
+  }
+
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .tab-wrap .media .parrent.pull-left {
+    clear: both;
+    width: 100%;
+  }
+}
+
+/* sm */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Make Navigation Toggle on Desktop Hover */
+
+  .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-nav > li {
+    margin-left: 0;
+  }
+
+  .tab-wrap .media .parrent.pull-left {
+    clear: both;
+    width: 100%;
+  }
+}
+
+/* xs */
+
+@media (max-width: 767px) {
+  .container > .navbar-header,
+  .container > .navbar-collapse {
+    margin-left: 0;
+  }
+
+  .top-number {
+    font-size: 14px;
+  }
+
+  .navbar-nav > li {
+    padding-bottom: 0;
+  }
+
+  .tab-wrap .media .pull-left {
+    clear: both;
+    width: 100%;
+  }
+
+  .tab-wrap .media .media-body {
+    clear: both;
+  }
+
+  .nav-tabs > li.active > a:after {
+    display: none;
+  }
+
+  #footer .col-sm-6 {
+    text-align: center;
+  }
+}
+
+/* XS Portrait */

@@ -1,0 +1,38 @@
+    <footer id="footer" class="midnight-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    &copy; 2016 <a target="_blank" href="/" title="Főoldal">ORTOBRACE Gyógyászati segédeszközöket gyártó és forgalmazó Kft</a>
+                </div>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/t/bs/dt-1.10.11,r-2.0.2/datatables.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('#termekek').DataTable( {
+        responsive: {
+            details: {
+                display: $.fn.dataTable.Responsive.display.modal( {
+                    header: function ( row ) {
+                        var data = row.data();
+                        return data[0];
+                    }
+                } ),
+                renderer: function ( api, rowIdx, columns ) {
+                    var data = $.map( columns, function ( col, i ) {
+                        return '<tr><td>' + col.title + ': </td><td>' + col.data + '</td></tr>';
+                    } ).join('');
+ 
+                    return $('<table class="table table-striped table-bordered table-hover table-condensed"/>').append( data );
+                }
+            }
+        },
+        "language": {
+            "url": "//cdn.datatables.net/plug-ins/1.10.11/i18n/Hungarian.json"
+        }
+    } );
+} );
+</script>
